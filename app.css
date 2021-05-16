@@ -1,0 +1,563 @@
+@media (min-width: 994px) {
+  .hide-large {
+    display: none;
+  }
+  .content {
+    width: 65%;
+    padding-left: 5%;
+    float: left;
+  }
+
+  .content-sub {
+    padding-left: 10%;
+    padding-right: 3.5%;
+  }
+  .content-sub-sub {
+      padding-left: 15%;
+  }
+  .people{
+    width:auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+  }
+  .people img{
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    border:4px double red;
+}
+.activity-box .photo{
+  width:6%;
+  float:left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.activity-box .message{
+  width:76%;
+  padding-left: 2%;
+  padding-right: 2%;
+  float:left;
+  padding-top:10px;
+  font-size: 11px;
+}
+.activity-box .post{
+  width:6%;
+  padding-left: 2%;
+  padding-right: 2%;
+  float:left;
+}
+}
+@media (max-width: 993px) {
+  .hide-small {
+    display: none;
+  }
+  .content {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .people{
+    width:15%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    float: left;
+}
+.people img{
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+  border:2px double red;
+}
+
+.activity-box .photo{
+  width:20%;
+  float:left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.activity-box .message{
+  width:42%;
+  padding-left: 2%;
+  padding-right: 2%;
+  float:left;
+  padding-top:10px;
+  font-size: 11px;
+}
+.activity-box .post{
+  width:26%;
+  padding-left: 2%;
+  padding-right: 2%;
+  float:left;
+}
+
+}
+@font-face {
+  font-family: Poppins;
+  src: url("Poppins.ttf");
+}
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+}
+* {
+  font-family: Poppins;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-top: 14px;
+  padding-bottom: 6px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  font-size: 18px;
+}
+.navbar-brand {
+  float: left;
+  width: 30%;
+}
+.navbar-item {
+  width: auto;
+}
+.navbar-search {
+  width: 40%;
+  float: left;
+}
+.navbar-icon {
+  width: 30%;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.navbar-search form input {
+  width: 60%;
+  padding-top: 5px;
+  font-size: 18px;
+  padding-bottom: 5px;
+  border-width: 0px;
+  border-color: rgb(253, 253, 253);
+  border-radius: 4px;
+  background: rgb(255, 247, 247);
+  color: rgb(82, 82, 82);
+  text-align: center;
+  font-size: 15px;
+}
+.navbottom {
+  bottom: 0;
+  position: fixed;
+  padding-top: 14px;
+  padding-bottom: 6px;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 98%;
+  background-color: white;
+  color: black;
+}
+.navicons {
+  width: 20%;
+  float: left;
+  font-size: 24px;
+  text-align: center;
+}
+.user {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.padding {
+  padding-top: 8vh;
+}
+.content {
+  padding-top: 20px;
+}
+.cards {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cards-inner {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cards-title {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 14px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.123);
+}
+.card-user {
+  width: 10%;
+  float: left;
+}
+.card-username {
+  width: 60%;
+  padding-left: 10%;
+  padding-right: 10%;
+  float: left;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.card-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cards-images {
+  max-width: 100%;
+}
+.cards-images img {
+  width: 100%;
+}
+.card-user-icon {
+  padding-top: 10px;
+  text-align: right;
+  width: 10%;
+  float: left;
+  color: rgba(0, 0, 0, 0.658);
+}
+.cards-content {
+  padding-top: 10px;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
+.cards-content i {
+  font-size: 22px;
+}
+.red {
+  color: rgb(253, 27, 27);
+}
+.icon-card {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.flip {
+  transform: scaleX(-1);
+}
+.comment-card {
+  padding-left: 5%;
+  padding-top: 10px;
+  font-size: 11px;
+}
+.user-caption {
+  padding-left: 5%;
+  padding-top: 2px;
+  font-size: 12px;
+}
+.card-time {
+  color: rgba(102, 100, 100, 0.76);
+  font-size: 10px;
+  padding-left: 5%;
+}
+.comment-two {
+  padding-left: 5%;
+  font-size: 11px;
+}
+.comment-two .com b {
+  font-weight: 600;
+  color: rgb(41, 41, 41);
+}
+.comment-two .com {
+  padding-top: 0px;
+  padding-bottom: 1px;
+}
+.sidebar {
+  width: 25%;
+  padding-right: 5%;
+  float: left;
+  right: 0;
+  top:9vh;
+  position: fixed;
+  z-index: 4;
+  height: 100%;
+  padding-top: 0%;
+}
+.padding-high{
+    padding-top:40px;
+    padding-bottom: 20px;
+}
+.sidebar-myside{
+    width:100%;
+    font-size: 16px;
+}
+.myimg img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border:2px double black;
+    padding:2px;
+}
+.myimg{
+    width:30%;
+    float: left;
+}
+.myname{
+    width:50%;
+    float: left;
+    padding-top:20px;
+}
+.switchbutton{
+    width:20%;
+    padding-top:40px;
+    color:blue;
+    float: left;
+}
+.myusername{
+color:rgba(48, 47, 47, 0.568);
+}
+.super-container{
+  padding-left:20%;
+  padding-right: 20%;
+  width:60%;
+}
+.padding-low{
+  padding-top:20px;
+}
+.users-prompt{
+  width:39%;
+  float: left;
+  background-color: white;
+  border-right: 1px solid rgba(73, 73, 73, 0.233);
+}
+.chat-section{
+  width:60%;
+  float: left;
+  background-color: white;
+}
+.contained{
+  padding-left: 5%;
+  padding-right: 5%;
+  width:90%;
+}
+.nochatbg{
+  padding-top:25vh;
+  padding-bottom:35vh;
+  text-align: center;
+}
+.nochatbg i{
+  font-size:60px;
+}
+.telicon{
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  width:140px;
+  height: 110px;
+  padding-top:35px;
+  padding-bottom: 5px;
+  border-radius: 50%;
+  border:2px solid black;
+}
+.newmessage{
+  padding-top:10px;
+}
+.thoda-big{
+  font-size: 22px;
+}
+.small{
+  font-size: 14px;
+}
+.me{
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 2%;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.616);
+}
+.me .name{
+  width:90%;
+  float: left;
+  font-weight: bold;
+}
+.me .icon{
+  width:10%;
+  float: left;
+}
+.people-cards{
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  width:96%;
+}
+.people-cards .username{
+  width:70%;
+  float: left;
+}
+.people-cards .userdp{
+  width:30%;
+  float: left;
+}
+.rec{
+  font-weight: 600;
+}
+.people-cards .userdp img{
+  border-radius: 50%;
+  width:60px;
+  height: 60px;
+  border:0px;
+}
+.people-cards .username .text{
+  padding-top:4px;
+  font-size: 14px;
+}
+.date{
+  color:rgba(75, 75, 75, 0.342);
+}
+.activity-box{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.activity-box .photo img{
+  height: auto;
+  width:90%;
+  border-radius: 50%;
+}
+.activity-box .post img{
+  height: auto;
+  width:90%;
+}
+.explore{
+  padding-left: 2%;
+  padding-right: 2%;
+  width:96%;
+}
+.half{
+  width:48%;
+  padding-left:1%;
+  padding-right:1%;
+  float:left;
+}
+.explore .half .fullsize img{
+  width:100%;
+}
+.padding-low{
+  padding-top:10px;
+}
+.reel img{
+  width:100%;
+}
+.fullsize{
+  padding:0px;
+}
+.fullsize img{
+  padding-bottom:0px;
+}
+.veryslightpadding{
+  padding-top:9px
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.userinfo{
+  padding-left:2%;
+  padding-right:2%;
+  width:96%;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+@media (max-width:993px){
+  .userinfo .userdp{
+    width:25%;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    float:left
+  }
+  .userinfo .userdp img{
+    width:100%;
+    border-radius: 50%;
+  }
+  .userinfo .username{
+    padding-top:15px;
+    padding-left:5%;
+    padding-right:5%;
+    float:left;
+    width:60%;
+    text-align:center
+  }
+}
+@media (min-width:994px){
+  .userinfo .userdp{
+    width:5%;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    float:left
+  }
+  .userinfo .userdp img{
+    width:100%;
+    border-radius: 50%;
+  }
+  .userinfo .username{
+    padding-top:15px;
+    padding-left:5%;
+    padding-right:5%;
+    float:left;
+    width:80%;
+  }
+}
+.userinfo .title{
+  padding-left:5%;
+  padding-top:10px;
+  font-size: 14px;
+  color:rgba(26, 23, 23, 0.774);
+}
+.userbio{
+  padding-left:5%;
+  padding-top:10px;
+  font-size: 12px;
+  color:black;
+}
+.photo{
+  padding-left:1%;
+  padding-right: 1%;
+  width:98%;
+}
+.thirds{
+  width:33.33%;
+  float:left;
+}
+.photo .thirds img{
+  width:90%;
+}
+.photos .thirds{
+max-height:200px;
+align-items: center;
+}
+.img11{
+  padding-top:15px;
+}
+.fourth{
+  padding-left: 1%;
+  padding-right: 1%;
+  width:23%;
+  float: left;
+}
+.fourth img{
+  width:100%;
+}
+.suggestions{
+  padding-left: 5%;
+  padding-right: 5%;
+  width:90%;
+}
+.tyle{
+  font-size: 14px;
+}
+.padding-verymuch{
+  padding-top:50px;
+}

@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/insta-ui-react-clone/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/insta-ui-react-clone/static/js/main.7def18f9.chunk.js",
+    "main.js.map": "/insta-ui-react-clone/static/js/main.7def18f9.chunk.js.map",
+    "runtime-main.js": "/insta-ui-react-clone/static/js/runtime-main.581459c9.js",
+    "runtime-main.js.map": "/insta-ui-react-clone/static/js/runtime-main.581459c9.js.map",
+    "static/js/2.4665657d.chunk.js": "/insta-ui-react-clone/static/js/2.4665657d.chunk.js",
+    "static/js/2.4665657d.chunk.js.map": "/insta-ui-react-clone/static/js/2.4665657d.chunk.js.map",
+    "static/js/3.0a4870e3.chunk.js": "/insta-ui-react-clone/static/js/3.0a4870e3.chunk.js",
+    "static/js/3.0a4870e3.chunk.js.map": "/insta-ui-react-clone/static/js/3.0a4870e3.chunk.js.map",
+    "index.html": "/insta-ui-react-clone/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/insta-ui-react-clone/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.4665657d.chunk.js.LICENSE.txt": "/insta-ui-react-clone/static/js/2.4665657d.chunk.js.LICENSE.txt",
+    "static/media/1.98f6bbdc.jpg": "/insta-ui-react-clone/static/media/1.98f6bbdc.jpg",
+    "static/media/2.fa71a3a9.gif": "/insta-ui-react-clone/static/media/2.fa71a3a9.gif",
+    "static/media/3.47cc9c27.gif": "/insta-ui-react-clone/static/media/3.47cc9c27.gif",
+    "static/media/bg-cup.3996db2e.jpg": "/insta-ui-react-clone/static/media/bg-cup.3996db2e.jpg",
+    "static/media/bg-gift.adec7cee.jpg": "/insta-ui-react-clone/static/media/bg-gift.adec7cee.jpg",
+    "static/media/bg-girl.e2a0c356.jpg": "/insta-ui-react-clone/static/media/bg-girl.e2a0c356.jpg",
+    "static/media/bg-laptop.89977d6d.jpg": "/insta-ui-react-clone/static/media/bg-laptop.89977d6d.jpg",
+    "static/media/bg-man.f99ac41d.jpg": "/insta-ui-react-clone/static/media/bg-man.f99ac41d.jpg",
+    "static/media/bg-thunder.c61cda7f.jpg": "/insta-ui-react-clone/static/media/bg-thunder.c61cda7f.jpg",
+    "static/media/blog-img.ffd835f9.jpg": "/insta-ui-react-clone/static/media/blog-img.ffd835f9.jpg",
+    "static/media/logo-min.d89f8f22.png": "/insta-ui-react-clone/static/media/logo-min.d89f8f22.png",
+    "static/media/msg.127a21c1.png": "/insta-ui-react-clone/static/media/msg.127a21c1.png",
+    "static/media/photo1.e977573e.jpg": "/insta-ui-react-clone/static/media/photo1.e977573e.jpg",
+    "static/media/photo2.b1f9b5dd.jpg": "/insta-ui-react-clone/static/media/photo2.b1f9b5dd.jpg",
+    "static/media/photo3.37291baf.jpg": "/insta-ui-react-clone/static/media/photo3.37291baf.jpg",
+    "static/media/tanmay.1902.0087376e.jpg": "/insta-ui-react-clone/static/media/tanmay.1902.0087376e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.581459c9.js",
+    "static/js/2.4665657d.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.7def18f9.chunk.js"
+  ]
+}
